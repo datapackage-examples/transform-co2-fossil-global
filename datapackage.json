@@ -1,5 +1,11 @@
 {
-  "license": "ODC-PDDL",
+  "licensces": [
+    {
+      "name": "ODC-PDDL-1.0",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0"
+    }
+  ],
   "name": "transform-examples-on-co2-fossil-global",
   "resources": [
     {
@@ -56,12 +62,12 @@
   "sources": [
     {
       "name": "CDIAC",
-      "web": "http://cdiac.esd.ornl.gov/ftp/ndp030/CSV-FILES/global.1751_2010.csv",
+      "path": "http://cdiac.esd.ornl.gov/ftp/ndp030/CSV-FILES/global.1751_2010.csv",
       "title": "CDIAC"
     },
     {
       "name": "GitHub repo",
-      "web": "https://github.com/datapackage-examples/transform-co2-fossil-global",
+      "path": "https://github.com/datapackage-examples/transform-co2-fossil-global",
       "title": "GitHub repo"
     }
   ],
